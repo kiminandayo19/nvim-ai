@@ -10,9 +10,10 @@ A Neovim simple plugin to integrate with AI.
 
 #### Installation
 
-- `vim-plug`
+<details>
+<summary>Installation with vim-plug</summary>
 
-```
+```vim
 call plug#begin()
 
 Plug 'kiminandayo19/nvim-ai'
@@ -26,8 +27,9 @@ require('floating').setup({
     api_key = os.getenv("YOUR_AI_API_KEY"),
     model = "YOUR_AI_MODEL"
   },
-  system_role = "You are a helpful AI Asistant",
+  system_role = "You are a helpful AI Assistant",
   max_conversation_history_len = 10,
 })
 EOF
 ```
+</details>
