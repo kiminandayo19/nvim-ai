@@ -21,7 +21,7 @@ Plug 'kiminandayo19/nvim-ai'
 call plug#end()
 
 lua << EOF
-require('floating').setup({
+require('nvim_ai').setup({
   config = {
     api_url = os.getenv("AI_MODEL_URL"),
     api_key = os.getenv("YOUR_AI_API_KEY"),
