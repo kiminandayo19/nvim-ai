@@ -32,4 +32,11 @@ require('nvim_ai').setup({
 })
 EOF
 ```
+
 </details>
+
+#### Keybindings
+
+- Open AI floating window chat => `<leader>of`
+- Clear chat history => `<leader>cf`
+- Explain code => `<leader>ssf`. Works for normal and visual mode.
