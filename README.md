@@ -2,11 +2,11 @@
 
 A Neovim simple plugin to integrate with AI.
 
-#### Current Features
+#### Features
 
-- AI Chat in floating window
-- AI Code explanation
-- Simple history management
+- **AI Chat**: Engage in conversations with AI in a floating window.
+- **Code Explanation**: Get explanations for your code snippets.
+- **History Management**: Maintain a simple history of your interactions.
 
 #### Installation
 
@@ -37,6 +37,6 @@ EOF
 
 #### Keybindings
 
-- Open AI floating window chat => `<leader>of`
-- Clear chat history => `<leader>cf`
-- Explain code => `<leader>ssf`. Works for normal and visual mode.
+- Open AI floating window chat: `<leader>of`
+- Clear chat history: `<leader>cf`
+- Explain code: `<leader>ssf` (works in normal and visual modes)
