@@ -2,13 +2,13 @@
 
 A Neovim simple plugin to integrate with AI.
 
-#### Features
+### [Features]
 
 - **AI Chat**: Engage in conversations with AI in a floating window.
 - **Code Explanation**: Get explanations for your code snippets.
 - **History Management**: Maintain a simple history of your interactions.
 
-#### Installation
+### [Installation]
 
 <details>
 <summary>Installation with vim-plug</summary>
@@ -35,7 +35,7 @@ EOF
 
 </details>
 
-#### Keybindings
+### [Keybindings]
 
 - Open AI floating window chat: `<leader>of`
 - Clear chat history: `<leader>cf`
